@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Side Pub - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 font-sans">
+    <nav class="sticky top-0 z-50 bg-zinc-900/90 backdrop-blur-md border-b border-zinc-800 h-20 flex items-center justify-between px-6 md:px-12">
+        <a href="index.html" class="text-2xl font-black tracking-wider text-amber-500">ROCK SIDE PUB</a>
+        <div class="hidden md:flex items-center space-x-2">
+            <a href="index.html" class="bg-amber-500 text-zinc-950 rounded-lg px-4 py-2 font-semibold transition">Home</a>
+            <a href="about.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Chi siamo</a>
+            <a href="services.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Menu</a>
+            <a href="gallery.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Galleria</a>
+            <a href="booking.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Prenota</a>
+            <a href="contacts.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Contatti</a>
+        </div>
+    </nav>
+    <header class="relative min-h-[80vh] flex items-center justify-center bg-cover bg-center px-6" style="background-image: url('https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&w=1920&q=80')">
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="relative z-10 max-w-4xl text-center">
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight text-white mb-6">Rock Side Pub - Il punto di riferimento per musica, giochi e buon cibo a Roma</h1>
+            <p class="text-lg md:text-xl text-zinc-300 mb-8 max-w-2xl mx-auto">Un pub accogliente in stile rock, organizzato su più livelli, con una vasta selezione di giochi da tavolo, biliardo, ottima birra e piatti casalinghi.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="booking.html" class="bg-amber-500 hover:bg-amber-600 text-zinc-950 px-8 py-4 rounded-xl text-lg font-bold shadow-2xl transition">Prenota un tavolo</a>
+                <a href="services.html" class="bg-zinc-900/80 hover:bg-zinc-800 text-white border border-zinc-700 px-8 py-4 rounded-xl text-lg font-bold transition">Esplora il Menu</a>
+            </div>
+        </div>
+    </header>
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-black text-white mb-4">Le nostre specialità</h2>
+            <p class="text-zinc-400">Scopri alcuni dei piatti e delle bevande più amati dai nostri ospiti.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden flex flex-col justify-between p-6">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-500">Panini e Hamburger</span>
+                    <h3 class="text-xl font-bold text-white mt-2 mb-2">Hamburger</h3>
+                    <p class="text-zinc-400 text-sm">Hamburger di ottima qualità preparato in stile pub</p>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <span class="text-amber-500 font-bold">€€</span>
+                    <a href="services.html" class="text-sm text-zinc-300 hover:text-amber-500 font-semibold">Vedi menu &rarr;</a>
+                </div>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden flex flex-col justify-between p-6">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-500">Specialità</span>
+                    <h3 class="text-xl font-bold text-white mt-2 mb-2">Chili fatto in casa</h3>
+                    <p class="text-zinc-400 text-sm">Specialità della casa preparata secondo ricetta casalinga</p>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <span class="text-amber-500 font-bold">€€</span>
+                    <a href="services.html" class="text-sm text-zinc-300 hover:text-amber-500 font-semibold">Vedi menu &rarr;</a>
+                </div>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden flex flex-col justify-between p-6">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-500">Cocktail</span>
+                    <h3 class="text-xl font-bold text-white mt-2 mb-2">Mojito</h3>
+                    <p class="text-zinc-400 text-sm">Preparato artigianalmente, tra i cocktail più apprezzati del locale</p>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <span class="text-amber-500 font-bold">€€</span>
+                    <a href="services.html" class="text-sm text-zinc-300 hover:text-amber-500 font-semibold">Vedi menu &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-zinc-900/50 border-y border-zinc-800 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-black text-white mb-4">Cosa dicono di noi</h2>
+                <p class="text-zinc-400">Le recensioni reali dei nostri clienti da Google Maps</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
+                    <div class="flex items-center mb-4 text-amber-500">★★★★★</div>
+                    <p class="text-zinc-300 italic mb-4">&ldquo;Ludopub tranquillo, personale gentile e disponibile, ottimo cibo e buona birra. Cosa altro dire… bel posto per passare una serata con amici.&rdquo;</p>
+                    <span class="font-bold text-white">- Andrea</span>
+                </div>
+                <div class="bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
+                    <div class="flex items-center mb-4 text-amber-500">★★★★★</div>
+                    <p class="text-zinc-300 italic mb-4">&ldquo;Torneremo super volentieri! Cibo ottima la qualità e la varietà io che sono vegetariana mi sono trovata bene, il posto molto accogliente e di gusto un po’ retro. Personale gentilissimo! E grande vastità di giochi.&rdquo;</p>
+                    <span class="font-bold text-white">- Kenda</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-zinc-900 text-zinc-400 py-12 px-6 border-t border-zinc-800">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Rock Side Pub</h3>
+                <p class="text-sm">Il punto di riferimento per musica, giochi e buon cibo a Roma.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Contatti</h3>
+                <p class="text-sm mb-2">Via Veio, 54, 00183 Roma RM, Italy</p>
+                <p class="text-sm mb-2">+39 06 64764436</p>
+                <p class="text-sm">rocksidepub@gmail.com</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Social</h3>
+                <div class="flex space-x-4">
+                    <a href="https://www.instagram.com/rock_side_pub/" class="hover:text-amber-500">Instagram</a>
+                    <a href="https://www.facebook.com/RockSideLudoPub/" class="hover:text-amber-500">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    // Плавная прокрутка
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>"},{"path":"about.html","content":"<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Side Pub - Chi siamo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 font-sans">
+    <nav class="sticky top-0 z-50 bg-zinc-900/90 backdrop-blur-md border-b border-zinc-800 h-20 flex items-center justify-between px-6 md:px-12">
+        <a href="index.html" class="text-2xl font-black tracking-wider text-amber-500">ROCK SIDE PUB</a>
+        <div class="hidden md:flex items-center space-x-2">
+            <a href="index.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Home</a>
+            <a href="about.html" class="bg-amber-500 text-zinc-950 rounded-lg px-4 py-2 font-semibold transition">Chi siamo</a>
+            <a href="services.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Menu</a>
+            <a href="gallery.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Galleria</a>
+            <a href="booking.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Prenota</a>
+            <a href="contacts.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Contatti</a>
+        </div>
+    </nav>
+    <div class="bg-zinc-900 border-b border-zinc-800 py-4 px-6 md:px-12">
+        <div class="max-w-6xl mx-auto text-sm text-zinc-400">
+            <a href="index.html" class="hover:text-amber-500">Home</a> &gt; <span class="text-zinc-100">Chi siamo</span>
+        </div>
+    </div>
+    <section class="py-20 px-6 max-w-4xl mx-auto">
+        <h1 class="text-4xl font-black text-white mb-8">Chi siamo</h1>
+        <div class="space-y-6 text-zinc-300 leading-relaxed text-lg whitespace-pre-line mb-16">Situato nel cuore di Roma in zona San Giovanni, il Rock Side Pub è un locale unico a conduzione familiare interamente ispirato al mondo del rock in ogni sua declinazione: dall'arredamento rétro all'atmosfera, fino alla colonna sonora. Organizzato su tre livelli, il pub offre non solo un'eccellente selezione di birre in bottiglia e cocktail, ma anche una cucina casalinga di qualità con ingredienti genuini.
+
+Il vero punto di forza del locale è la sua anima ludica e sociale: una vasta scelta di giochi da tavolo, biliardo e calcio balilla accoglie appassionati di ogni età per serate indimenticabili in compagnia. Durante la bella stagione è possibile divertirsi anche con ping pong e subbuteo.
+
+Il Rock Side Pub è inoltre il luogo ideale per gli amanti dello sport, grazie alla trasmissione delle principali partite di calcio su maxischermi. Che si tratti di cenare con amici, festeggiare un compleanno o godersi una serata di relax tra buona musica e giochi, il Rock Side offre un'esperienza accogliente, informale e autentica.</div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <div class="bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
+                <h3 class="text-xl font-bold text-white mb-4">Il nostro Team</h3>
+                <div class="space-y-2">
+                    <p class="font-bold text-amber-500">Giovanni Mastropasqua</p>
+                    <p class="text-sm text-zinc-400">Fondatore / Gestore</p>
+                </div>
+            </div>
+            <div class="bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
+                <h3 class="text-xl font-bold text-white mb-4">Caratteristiche uniche</h3>
+                <ul class="space-y-3 text-sm text-zinc-300">
+                    <li class="flex items-start"><span class="text-amber-500 mr-2">•</span>Locale organizzato su tre livelli interamente dedicato al mondo del Rock (stile, arredamento e musica).</li>
+                    <li class="flex items-start"><span class="text-amber-500 mr-2">•</span>Vasta selezione di giochi da tavolo, biliardo, calcio balilla, ping pong e subbuteo.</li>
+                    <li class="flex items-start"><span class="text-amber-500 mr-2">•</span>Gestione familiare con cucina casalinga e verdure a km 0 provenienti da orto di proprietà.</li>
+                    <li class="flex items-start"><span class="text-amber-500 mr-2">•</span>Punto di riferimento storico in zona San Giovanni a Roma per gli appassionati di board games e musica rock.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-zinc-900 text-zinc-400 py-12 px-6 border-t border-zinc-800">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Rock Side Pub</h3>
+                <p class="text-sm">Il punto di riferimento per musica, giochi e buon cibo a Roma.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Contatti</h3>
+                <p class="text-sm mb-2">Via Veio, 54, 00183 Roma RM, Italy</p>
+                <p class="text-sm mb-2">+39 06 64764436</p>
+                <p class="text-sm">rocksidepub@gmail.com</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Social</h3>
+                <div class="flex space-x-4">
+                    <a href="https://www.instagram.com/rock_side_pub/" class="hover:text-amber-500">Instagram</a>
+                    <a href="https://www.facebook.com/RockSideLudoPub/" class="hover:text-amber-500">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>"},{"path":"services.html","content":"<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Side Pub - Menu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 font-sans">
+    <nav class="sticky top-0 z-50 bg-zinc-900/90 backdrop-blur-md border-b border-zinc-800 h-20 flex items-center justify-between px-6 md:px-12">
+        <a href="index.html" class="text-2xl font-black tracking-wider text-amber-500">ROCK SIDE PUB</a>
+        <div class="hidden md:flex items-center space-x-2">
+            <a href="index.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Home</a>
+            <a href="about.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Chi siamo</a>
+            <a href="services.html" class="bg-amber-500 text-zinc-950 rounded-lg px-4 py-2 font-semibold transition">Menu</a>
+            <a href="gallery.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Galleria</a>
+            <a href="booking.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Prenota</a>
+            <a href="contacts.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Contatti</a>
+        </div>
+    </nav>
+    <div class="bg-zinc-900 border-b border-zinc-800 py-4 px-6 md:px-12">
+        <div class="max-w-6xl mx-auto text-sm text-zinc-400">
+            <a href="index.html" class="hover:text-amber-500">Home</a> &gt; <span class="text-zinc-100">Menu</span>
+        </div>
+    </div>
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-black text-white mb-4">Il nostro Menu</h1>
+            <p class="text-zinc-400">Panini, hamburger, specialità fatte in casa, birre selezionate e cocktail artigianali.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden flex flex-col justify-between p-6">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-500">Panini e Hamburger</span>
+                    <h3 class="text-xl font-bold text-white mt-2 mb-2">Hamburger</h3>
+                    <p class="text-zinc-400 text-sm">Hamburger di ottima qualità preparato in stile pub</p>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <span class="text-amber-500 font-bold">€€</span>
+                </div>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden flex flex-col justify-between p-6">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-500">Panini e Hamburger</span>
+                    <h3 class="text-xl font-bold text-white mt-2 mb-2">Piadina and burger</h3>
+                    <p class="text-zinc-400 text-sm">Sfiziosa combinazione di piadina e burger</p>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <span class="text-amber-500 font-bold">€€</span>
+                </div>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden flex flex-col justify-between p-6">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-500">Specialità</span>
+                    <h3 class="text-xl font-bold text-white mt-2 mb-2">Chili fatto in casa</h3>
+                    <p class="text-zinc-400 text-sm">Specialità della casa preparata secondo ricetta casalinga</p>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <span class="text-amber-500 font-bold">€€</span>
+                </div>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden flex flex-col justify-between p-6">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-500">Bevande</span>
+                    <h3 class="text-xl font-bold text-white mt-2 mb-2">Birra in bottiglia selezionata</h3>
+                    <p class="text-zinc-400 text-sm">Vasta selezione di birre classiche e artigianali, belghe, inglesi, tedesche e italiane</p>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <span class="text-amber-500 font-bold">€€</span>
+                </div>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden flex flex-col justify-between p-6">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-500">Cocktail</span>
+                    <h3 class="text-xl font-bold text-white mt-2 mb-2">Mojito</h3>
+                    <p class="text-zinc-400 text-sm">Preparato artigianalmente, tra i cocktail più apprezzati del locale</p>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <span class="text-amber-500 font-bold">€€</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-zinc-900 text-zinc-400 py-12 px-6 border-t border-zinc-800">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Rock Side Pub</h3>
+                <p class="text-sm">Il punto di riferimento per musica, giochi e buon cibo a Roma.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Contatti</h3>
+                <p class="text-sm mb-2">Via Veio, 54, 00183 Roma RM, Italy</p>
+                <p class="text-sm mb-2">+39 06 64764436</p>
+                <p class="text-sm">rocksidepub@gmail.com</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Social</h3>
+                <div class="flex space-x-4">
+                    <a href="https://www.instagram.com/rock_side_pub/" class="hover:text-amber-500">Instagram</a>
+                    <a href="https://www.facebook.com/RockSideLudoPub/" class="hover:text-amber-500">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>"},{"path":"gallery.html","content":"<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Side Pub - Galleria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 font-sans">
+    <nav class="sticky top-0 z-50 bg-zinc-900/90 backdrop-blur-md border-b border-zinc-800 h-20 flex items-center justify-between px-6 md:px-12">
+        <a href="index.html" class="text-2xl font-black tracking-wider text-amber-500">ROCK SIDE PUB</a>
+        <div class="hidden md:flex items-center space-x-2">
+            <a href="index.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Home</a>
+            <a href="about.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Chi siamo</a>
+            <a href="services.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Menu</a>
+            <a href="gallery.html" class="bg-amber-500 text-zinc-950 rounded-lg px-4 py-2 font-semibold transition">Galleria</a>
+            <a href="booking.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Prenota</a>
+            <a href="contacts.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Contatti</a>
+        </div>
+    </nav>
+    <div class="bg-zinc-900 border-b border-zinc-800 py-4 px-6 md:px-12">
+        <div class="max-w-6xl mx-auto text-sm text-zinc-400">
+            <a href="index.html" class="hover:text-amber-500">Home</a> &gt; <span class="text-zinc-100">Galleria</span>
+        </div>
+    </div>
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-black text-white mb-4">Galleria</h1>
+            <p class="text-zinc-400">Un'occhiata all'atmosfera, ai giochi e ai piatti del nostro pub.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="aspect-square overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+                <img src="https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&w=800&q=80" alt="Pub ambiance" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+                <img src="https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=800&q=80" alt="Board games" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+                <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80" alt="Burger and fries" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+                <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80" alt="Bar drinks" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+                <img src="https://images.unsplash.com/photo-1632853111002-d12d08a4f07a?auto=format&fit=crop&w=800&q=80" alt="Playing board games" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+                <img src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&q=80" alt="Pub interior" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+        </div>
+    </section>
+    <footer class="bg-zinc-900 text-zinc-400 py-12 px-6 border-t border-zinc-800">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Rock Side Pub</h3>
+                <p class="text-sm">Il punto di riferimento per musica, giochi e buon cibo a Roma.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Contatti</h3>
+                <p class="text-sm mb-2">Via Veio, 54, 00183 Roma RM, Italy</p>
+                <p class="text-sm mb-2">+39 06 64764436</p>
+                <p class="text-sm">rocksidepub@gmail.com</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Social</h3>
+                <div class="flex space-x-4">
+                    <a href="https://www.instagram.com/rock_side_pub/" class="hover:text-amber-500">Instagram</a>
+                    <a href="https://www.facebook.com/RockSideLudoPub/" class="hover:text-amber-500">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>"},{"path":"booking.html","content":"<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Side Pub - Prenota</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 font-sans">
+    <nav class="sticky top-0 z-50 bg-zinc-900/90 backdrop-blur-md border-b border-zinc-800 h-20 flex items-center justify-between px-6 md:px-12">
+        <a href="index.html" class="text-2xl font-black tracking-wider text-amber-500">ROCK SIDE PUB</a>
+        <div class="hidden md:flex items-center space-x-2">
+            <a href="index.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Home</a>
+            <a href="about.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Chi siamo</a>
+            <a href="services.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Menu</a>
+            <a href="gallery.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Galleria</a>
+            <a href="booking.html" class="bg-amber-500 text-zinc-950 rounded-lg px-4 py-2 font-semibold transition">Prenota</a>
+            <a href="contacts.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Contatti</a>
+        </div>
+    </nav>
+    <div class="bg-zinc-900 border-b border-zinc-800 py-4 px-6 md:px-12">
+        <div class="max-w-6xl mx-auto text-sm text-zinc-400">
+            <a href="index.html" class="hover:text-amber-500">Home</a> &gt; <span class="text-zinc-100">Prenota</span>
+        </div>
+    </div>
+    <section class="py-20 px-6 max-w-2xl mx-auto">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-black text-white mb-4">Prenota un tavolo</h1>
+            <p class="text-zinc-400">Compila il form sottostante per richiedere una prenotazione al Rock Side Pub.</p>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 rounded-3xl shadow-2xl p-8 md:p-10">
+            <form action="https://formsubmit.co/rocksidepub@gmail.com" method="POST" class="space-y-6">
+                <div>
+                    <label class="block text-sm font-semibold text-zinc-300 mb-2">Nome e Cognome</label>
+                    <input type="text" name="name" required class="w-full px-5 py-4 bg-zinc-950 border-2 border-zinc-800 rounded-xl text-white focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-zinc-300 mb-2">Email</label>
+                    <input type="email" name="email" required class="w-full px-5 py-4 bg-zinc-950 border-2 border-zinc-800 rounded-xl text-white focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-zinc-300 mb-2">Telefono</label>
+                    <input type="tel" name="phone" required class="w-full px-5 py-4 bg-zinc-950 border-2 border-zinc-800 rounded-xl text-white focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-semibold text-zinc-300 mb-2">Data</label>
+                        <input type="date" name="date" required class="w-full px-5 py-4 bg-zinc-950 border-2 border-zinc-800 rounded-xl text-white focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-zinc-300 mb-2">Numero di persone</label>
+                        <input type="number" name="guests" min="1" max="20" required class="w-full px-5 py-4 bg-zinc-950 border-2 border-zinc-800 rounded-xl text-white focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-zinc-300 mb-2">Note o richieste particolari</label>
+                    <textarea name="notes" rows="4" class="w-full px-5 py-4 bg-zinc-950 border-2 border-zinc-800 rounded-xl text-white focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-gradient-to-r from-amber-500 to-orange-500 text-zinc-950 py-5 rounded-xl text-lg font-bold hover:opacity-90 shadow-xl transition">Invia richiesta di prenotazione</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-zinc-900 text-zinc-400 py-12 px-6 border-t border-zinc-800">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Rock Side Pub</h3>
+                <p class="text-sm">Il punto di riferimento per musica, giochi e buon cibo a Roma.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Contatti</h3>
+                <p class="text-sm mb-2">Via Veio, 54, 00183 Roma RM, Italy</p>
+                <p class="text-sm mb-2">+39 06 64764436</p>
+                <p class="text-sm">rocksidepub@gmail.com</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Social</h3>
+                <div class="flex space-x-4">
+                    <a href="https://www.instagram.com/rock_side_pub/" class="hover:text-amber-500">Instagram</a>
+                    <a href="https://www.facebook.com/RockSideLudoPub/" class="hover:text-amber-500">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>"},{"path":"contacts.html","content":"<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Side Pub - Contatti</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 font-sans">
+    <nav class="sticky top-0 z-50 bg-zinc-900/90 backdrop-blur-md border-b border-zinc-800 h-20 flex items-center justify-between px-6 md:px-12">
+        <a href="index.html" class="text-2xl font-black tracking-wider text-amber-500">ROCK SIDE PUB</a>
+        <div class="hidden md:flex items-center space-x-2">
+            <a href="index.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Home</a>
+            <a href="about.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Chi siamo</a>
+            <a href="services.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Menu</a>
+            <a href="gallery.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Galleria</a>
+            <a href="booking.html" class="hover:bg-zinc-800 rounded-lg px-4 py-2 transition">Prenota</a>
+            <a href="contacts.html" class="bg-amber-500 text-zinc-950 rounded-lg px-4 py-2 font-semibold transition">Contatti</a>
+        </div>
+    </nav>
+    <div class="bg-zinc-900 border-b border-zinc-800 py-4 px-6 md:px-12">
+        <div class="max-w-6xl mx-auto text-sm text-zinc-400">
+            <a href="index.html" class="hover:text-amber-500">Home</a> &gt; <span class="text-zinc-100">Contatti</span>
+        </div>
+    </div>
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-black text-white mb-4">Contattaci</h1>
+            <p class="text-zinc-400">Vieni a trovarci o mettiti in contatto con noi.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="space-y-8">
+                <div class="bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
+                    <h3 class="text-xl font-bold text-white mb-4">Informazioni</h3>
+                    <p class="text-zinc-300 mb-3"><strong class="text-amber-500">Indirizzo:</strong> Via Veio, 54, 00183 Roma RM, Italy</p>
+                    <p class="text-zinc-300 mb-3"><strong class="text-amber-500">Telefono:</strong> +39 06 64764436</p>
+                    <p class="text-zinc-300 mb-3"><strong class="text-amber-500">Email:</strong> rocksidepub@gmail.com</p>
+                </div>
+                <div class="bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
+                    <h3 class="text-xl font-bold text-white mb-4">Orari di apertura</h3>
+                    <p class="text-zinc-300 text-sm leading-relaxed whitespace-pre-line">Lunedì: Chiuso | Martedì-Mercoledì-Giovedì: 15:00–23:30 | Venerdì-Sabato: 15:00–01:30 | Domenica: 15:00–23:30</p>
+                </div>
+            </div>
+            <div class="bg-zinc-900 rounded-2xl border border-zinc-800 overflow-hidden flex items-center justify-center min-h-[400px]">
+                <iframe class="w-full h-full min-h-[400px] border-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.613038084654!2d12.508535!3d41.884145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61a1b1a1b1a1%3A0x1a1b1a1b1a1b1a1b!2sVia%20Veio%2C%2054%2C%2000183%20Roma%20RM%2C%20Italy!5e0!3m2!1sit!2sit!4v1620000000000!5m2!1sit!2sit" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-zinc-900 text-zinc-400 py-12 px-6 border-t border-zinc-800">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Rock Side Pub</h3>
+                <p class="text-sm">Il punto di riferimento per musica, giochi e buon cibo a Roma.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Contatti</h3>
+                <p class="text-sm mb-2">Via Veio, 54, 00183 Roma RM, Italy</p>
+                <p class="text-sm mb-2">+39 06 64764436</p>
+                <p class="text-sm">rocksidepub@gmail.com</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Social</h3>
+                <div class="flex space-x-4">
+                    <a href="https://www.instagram.com/rock_side_pub/" class="hover:text-amber-500">Instagram</a>
+                    <a href="https://www.facebook.com/RockSideLudoPub/" class="hover:text-amber-500">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
